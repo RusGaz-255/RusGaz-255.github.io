@@ -6,15 +6,30 @@
     <title>Document</title>
     <style>
         body{
-            background-image: url(duck.gif);
-            color: lightblue
+            background-image: url(duck.gif); 
+            background-size: cover; 
+            color: rgb(60, 142, 170)
+        }
+        .logo{
+            width: 150px
+        }
+        .gif{
+            background-image: linear-gradient(rgb(33, 148, 201), rgb(152, 107, 235), rgb(243, 75, 193));
+            width: 500px
+        }
+        .arm{
+            color: rgb(121, 60, 170)
         }
     </style>
 </head>
 <body>
 <h1>Операционные системы</h1>
- <h2>Windows</h2>
- <h3>Android</h3>
- <img src="bird.jpg" alt="">
+ <h2 class="arm">Microsoft Windows</h2><img class="logo" src="win.png">
+ <h2 class="arm">Google Android</h2><img class="logo" src="Android.png">
+ <h2 class="arm">Apple iOS</h2><img class="logo" src="Apple.png">
+ <h2 class="arm">Linux</h2><img class="logo" src="linux.svg">
+ <h2 class="arm">Huawei HarmonyOS</h2><img class="logo" src="Huawei.png">
+ <h2>...</h2>
+ <img class="gif" src="duck_run.gif" alt="">
 </body>
 </html>
