@@ -3,39 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Duck</title>
+    <link rel="icon" type="image/svg+xml" href="icon.svg">
     <style>
         body{
             background-image: url(duck.gif); 
             background-size: cover; /* Масштабирование картинки на сайте */
-            color: rgb(60, 142, 170)
+            color: rgb(98, 143, 158)
         }
         .logo{
             width: 150px
+        }
+        .logo:hover{
+            width: 160px; /* При наводе на картинку с классом logo оно увеличется */
         }
         .gif{
             background-image: linear-gradient(rgb(33, 148, 201), rgb(152, 107, 235), rgb(243, 75, 193));
             width: 500px
         }
         .arm{
-            color: rgb(121, 60, 170)
+            color: rgb(255, 238, 201)
         }
         .c1{
             font-family: Arial; /* Шрифт текста */
             font-size: 50px; /* Размер текста */
-            color: rgb(65, 150, 97);
-            text-shadow: 2px 5px 7px rgb(60, 60, 60); /* Тень текста */
+            color: rgb(226, 247, 133); /* Цвет */
+            text-shadow: 2px 5px 7px rgb(151, 143, 94); /* Тень текста */
+        }
+        .desk_os{
+            background-color: rgb(224, 118, 48); 
+            width: 380px;
+            border: 5px solid rgb(110, 67, 10); /* Рамка */
+            border-radius: 20px; /* Скругление рамки */
+               }  
+        .desk_h2{
+            background-color: rgb(212, 150, 33); 
+            background-size: cover;
+            width: 180px;
+            border: 5px solid rgb(110, 78, 10);
+            border-radius: 50px;
+            box-shadow: 5px 1px 1px rgb(87, 61, 7);
         }
     </style>
 </head>
-<body>
+<div class="desk_os" >
 <h1 class="c1">Операционные системы</h1>
- <h2 class="arm">Microsoft Windows</h2><img class="logo" src="win.png">
- <h2 class="arm">Google Android</h2><img class="logo" src="Android.png">
- <h2 class="arm">Apple iOS</h2><img class="logo" src="Apple.png">
- <h2 class="arm">Linux</h2><img class="logo" src="linux.svg">
- <h2 class="arm">Huawei HarmonyOS</h2><img class="logo" src="Huawei.png">
+</div>
+<div class="desk_h2">
+ <h2 class="arm">Microsoft Windows</h2>
+ <img class="logo" src="win.png" alt="Error">
+</div>
+<div class="desk_h2">
+ <h2 class="arm">Google Android</h2>
+ <img class="logo" src="Android.png" alt="Error">
+</div>
+<div class="desk_h2">
+ <h2 class="arm">Apple iOS</h2>
+ <img class="logo" src="Apple.png" alt="Error">
+</div>
+<div class="desk_h2">
+ <h2 class="arm">Linux</h2>
+ <img class="logo" src="linux.svg" alt="Error">
+ </div>
+ <div class="desk_h2">
+ <h2 class="arm">Huawei HarmonyOS</h2>
+ <img class="logo" src="Huawei.png" alt="Error">
+ </div>
  <h2>...</h2>
- <img class="gif" src="duck_run.gif" alt="">
+ <img class="gif" src="duck_run.gif" alt="Error">
 </body>
 </html>
